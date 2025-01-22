@@ -1,0 +1,515 @@
+0000.001 (0) Opened log file at time: Wed, 22 Jan 2025 04:48:44 +0000 on http://localhost/birkdale-magento/
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.1 PHP: 8.0.26 (apache2handler, Windows NT DESKTOP-L7M59EN 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.31 (max packet size=1048576000) WPLANG: en_US Server: Apache/2.4.54 (Win64) PHP/8.0.26 mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 8.4M | 10M) multisite: Y (sub-domain) openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 264095.5 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.027 (0) Semaphore (fd, wp_options) being initialised
+0000.034 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.037 (0) Set semaphore last lock (fd) time to 2025-01-22 04:48:44
+0000.040 (0) Semaphore lock (fd) complete
+0000.052 (0) Backup run: resumption=0, nonce=7c0f16848663, file_nonce=7c0f16848663 begun at=1737521324 (0s ago), job type=backup
+0000.056 (0) Scheduling a resumption (1) after 300 seconds (1737521624) in case this run gets aborted
+0000.096 (0) Checking if we have a zip executable available
+0000.100 (0) Creation of backups of directories: beginning
+0000.110 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.065 (0) Total entities for the zip file: 649 directories, 3904 files (0 skipped as non-modified), 67.8 MB
+0003.076 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.215 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 100 files added (on-disk size: 112.4 KB)
+0003.283 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 200 files added (on-disk size: 112.4 KB)
+0003.349 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 300 files added (on-disk size: 112.4 KB)
+0003.463 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 400 files added (on-disk size: 112.4 KB)
+0003.549 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 500 files added (on-disk size: 112.4 KB)
+0003.625 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 600 files added (on-disk size: 112.4 KB)
+0003.696 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 700 files added (on-disk size: 112.4 KB)
+0003.770 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 800 files added (on-disk size: 112.4 KB)
+0003.828 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 900 files added (on-disk size: 112.4 KB)
+0003.880 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1000 files added (on-disk size: 112.4 KB)
+0003.883 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.1 MB, 3904 files batched, 1001 (1002) added so far); re-opening (prior size: 112.4 KB)
+0006.971 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1100 files added (on-disk size: 7801.8 KB)
+0007.021 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1200 files added (on-disk size: 7801.8 KB)
+0007.083 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1300 files added (on-disk size: 7801.8 KB)
+0007.148 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1400 files added (on-disk size: 7801.8 KB)
+0007.214 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1500 files added (on-disk size: 7801.8 KB)
+0007.287 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1600 files added (on-disk size: 7801.8 KB)
+0007.343 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 3904 files batched, 682 (1684) added so far); re-opening (prior size: 7801.8 KB)
+0010.388 (0) A useful amount of data was added after this amount of zip processing: 3.8 s (normalised: 3.8 s, rate: 6721.9 KB/s)
+0010.394 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.8090150356293, normalised_time=3.808458463502, max_time=10.391642093658, data points known=1, old_max_bytes=26214400, new_max_bytes=42916681)
+0010.443 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1700 files added (on-disk size: 15532.5 KB)
+0010.542 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1800 files added (on-disk size: 15532.5 KB)
+0010.646 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 1900 files added (on-disk size: 15532.5 KB)
+0010.726 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2000 files added (on-disk size: 15532.5 KB)
+0010.779 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2100 files added (on-disk size: 15532.5 KB)
+0010.837 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2200 files added (on-disk size: 15532.5 KB)
+0010.902 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2300 files added (on-disk size: 15532.5 KB)
+0011.013 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2400 files added (on-disk size: 15532.5 KB)
+0011.097 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2500 files added (on-disk size: 15532.5 KB)
+0011.164 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2600 files added (on-disk size: 15532.5 KB)
+0011.216 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.8 MB, 3904 files batched, 1001 (2685) added so far); re-opening (prior size: 15532.5 KB)
+0012.763 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2700 files added (on-disk size: 17748 KB)
+0012.820 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2800 files added (on-disk size: 17748 KB)
+0012.886 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 2900 files added (on-disk size: 17748 KB)
+0012.943 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3000 files added (on-disk size: 17748 KB)
+0013.004 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3100 files added (on-disk size: 17748 KB)
+0013.066 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3200 files added (on-disk size: 17748 KB)
+0013.130 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3300 files added (on-disk size: 17748 KB)
+0013.195 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3400 files added (on-disk size: 17748 KB)
+0013.268 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3500 files added (on-disk size: 17748 KB)
+0013.365 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3600 files added (on-disk size: 17748 KB)
+0013.415 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11 MB, 3904 files batched, 1001 (3686) added so far); re-opening (prior size: 17748 KB)
+0015.333 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3700 files added (on-disk size: 21283.8 KB)
+0015.386 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3800 files added (on-disk size: 21283.8 KB)
+0015.445 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.tmp: 3900 files added (on-disk size: 21283.8 KB)
+0015.920 (0) Creating zip file manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.list-temp.tmp)
+0015.970 (0) Successfully created zip file manifest (size: 321164)
+0016.466 (0) Created plugins zip (0) - 21594.8 KB in 16.3 s (1320.9 KB/s) (sha1: 2aa5ad6c54b304e2534a5c71dc666ddba0dadc63, sha256: 088a70889108c793e616e10deb382ea1140efdd5d9dc9991807ce6e208974dd0)
+0016.513 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.516 (0) No remote despatch: user chose no remote backup service
+0016.547 (0) Recording as successfully uploaded: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip
+0016.582 (0) Deleting zip manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip.list.tmp)
+0016.623 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0016.627 (0) Number of backup sets in history: 0; groups (db): 1
+0016.629 (0) Number of backup sets in history: 0; groups (files): 1
+0016.630 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0016.643 (0) Beginning creation of dump of themes (split every: 400 MB)
+0016.993 (0) Total entities for the zip file: 58 directories, 467 files (0 skipped as non-modified), 13.9 MB
+0017.047 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.096 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.149 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.209 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0018.316 (0) Creating zip file manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip.list-temp.tmp)
+0018.324 (0) Successfully created zip file manifest (size: 31666)
+0018.576 (0) Created themes zip (0) - 12985.3 KB in 1.9 s (6742.1 KB/s) (sha1: 016493580a7e21a66d1aa77ebeaeaee70985e033, sha256: 6f22ffa8d2aeb22dfd066e41edd38a772999fb880ba1f7e52a9aed84ca20838d)
+0018.585 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.588 (0) No remote despatch: user chose no remote backup service
+0018.591 (0) Recording as successfully uploaded: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip
+0018.595 (0) Deleting zip manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip.list.tmp)
+0018.600 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.612 (0) Number of backup sets in history: 0; groups (db): 1
+0018.614 (0) Number of backup sets in history: 0; groups (files): 1
+0018.617 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0018.630 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.633 (0) Looking for candidates to backup in: D:\WAMP64\www\birkdale-magento/wp-content/uploads
+0018.639 (0) finding files: 2025: adding to list (1)
+0018.642 (0) finding files: pages: adding to list (2)
+0018.644 (0) finding files: sb-instagram-feed-images: adding to list (3)
+0018.646 (0) finding files: sites: adding to list (4)
+0018.648 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.796 (0) Total entities for the zip file: 17 directories, 190 files (0 skipped as non-modified), 18.1 MB
+0018.861 (0) Zip: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.222 (0) Creating zip file manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-uploads.zip.list-temp.tmp)
+0019.228 (0) Successfully created zip file manifest (size: 13771)
+0019.577 (0) Created uploads zip (0) - 18301.7 KB in 0.9 s (19922.4 KB/s) (sha1: 4bbd416e8b3c0ff2455935ec7ea538e9385da101, sha256: 3a6d276a6c9292495e9261f755f0199c25dcf91022aea534febe3776e095b9f1)
+0019.586 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0019.591 (0) No remote despatch: user chose no remote backup service
+0019.594 (0) Recording as successfully uploaded: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-uploads.zip
+0019.597 (0) Deleting zip manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-uploads.zip.list.tmp)
+0019.601 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0019.606 (0) Number of backup sets in history: 0; groups (db): 1
+0019.608 (0) Number of backup sets in history: 0; groups (files): 1
+0019.610 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0019.619 (0) No backup of mu-plugins: excluded by user's options
+0019.624 (0) Beginning backup of other directories found in the content directory (index: 0)
+0019.627 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0019.630 (0) Looking for candidates to backup in: D:\WAMP64\www\birkdale-magento/wp-content
+0019.632 (0) finding files: debug.log: skipping: excluded by options
+0019.634 (0) finding files: index.php: adding to list (1)
+0019.636 (0) finding files: plugins: skipping: this is the plugins directory
+0019.641 (0) finding files: themes: skipping: this is the themes directory
+0019.643 (0) finding files: updraft: skipping: this is the updraft directory
+0019.645 (0) finding files: upgrade: skipping: excluded by options
+0019.647 (0) finding files: upgrade-temp-backup: adding to list (2)
+0019.649 (0) finding files: uploads: skipping: this is the uploads directory
+0019.663 (0) Total entities for the zip file: 2 directories, 1 files (0 skipped as non-modified), 0 MB
+0019.672 (0) Creating zip file manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-others.zip.list-temp.tmp)
+0019.675 (0) Successfully created zip file manifest (size: 43)
+0019.685 (0) Created others zip (0) - 0.4 KB in 0 s (14.9 KB/s) (sha1: bfabd9891ded10fa4e478d5ed71af0311b547528, sha256: 578e1d5b83c3ce375bb388f45d758f51d911594ed58cbe32f200da381c24c817)
+0019.695 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0019.697 (0) No remote despatch: user chose no remote backup service
+0019.699 (0) Recording as successfully uploaded: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-others.zip
+0019.702 (0) Deleting zip manifest (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-others.zip.list.tmp)
+0019.709 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0019.714 (0) Number of backup sets in history: 0; groups (db): 1
+0019.716 (0) Number of backup sets in history: 0; groups (files): 1
+0019.718 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0019.738 (0) Saving backup status to database (elements: 8)
+0019.746 (0) Beginning creation of database dump (WordPress DB)
+0019.748 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0020.023 (0) Table wp_options: Total expected rows (via COUNT): 245
+0020.027 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.130 (0) Table wp_options: Rows added in this batch (next record: 463): 242 (uncompressed bytes in this segment=933006) in 0.12 seconds
+0020.145 (0) Table wp_options: finishing file(s) (2, 231.3 KB)
+0020.163 (0) Table wp_site: Total expected rows (via COUNT): 1
+0020.166 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.170 (0) Table wp_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=645) in 0.01 seconds
+0020.181 (0) Table wp_site: finishing file(s) (2, 0.4 KB)
+0020.198 (0) Table wp_blogs: Total expected rows (via COUNT): 3
+0020.200 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.206 (0) Table wp_blogs: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1405) in 0.01 seconds
+0020.217 (0) Table wp_blogs: finishing file(s) (2, 0.6 KB)
+0020.246 (0) Table wp_users: Total expected rows (via COUNT): 2
+0020.248 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.252 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1639) in 0.01 seconds
+0020.263 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0020.280 (0) Table wp_usermeta: Total expected rows (via COUNT): 86
+0020.282 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.295 (0) Table wp_usermeta: Rows added in this batch (next record: 93): 86 (uncompressed bytes in this segment=9873) in 0.02 seconds
+0020.309 (0) Table wp_usermeta: finishing file(s) (2, 2.9 KB)
+0020.329 (0) Table wp_blogmeta: Total expected rows (via COUNT): 0
+0020.333 (0) Table wp_blogmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=641) in 0.01 seconds
+0020.346 (0) Table wp_blogmeta: finishing file(s) (2, 0.4 KB)
+0020.363 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0020.365 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0020.379 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0020.394 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0020.397 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.402 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2118) in 0.01 seconds
+0020.413 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0020.431 (0) Table wp_links: Total expected rows (via COUNT): 0
+0020.435 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0020.446 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0020.462 (0) Table wp_postmeta: Total expected rows (via COUNT): 4
+0020.464 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.470 (0) Table wp_postmeta: Rows added in this batch (next record: 10): 4 (uncompressed bytes in this segment=851) in 0.01 seconds
+0020.483 (0) Table wp_postmeta: finishing file(s) (2, 0.5 KB)
+0020.501 (0) Table wp_posts: Total expected rows (via COUNT): 6
+0020.504 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.511 (0) Table wp_posts: Rows added in this batch (next record: 10): 6 (uncompressed bytes in this segment=10697) in 0.02 seconds
+0020.523 (0) Table wp_posts: finishing file(s) (2, 3.1 KB)
+0020.540 (0) Table wp_registration_log: Total expected rows (via COUNT): 2
+0020.542 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.546 (0) Table wp_registration_log: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=902) in 0.01 seconds
+0020.557 (0) Table wp_registration_log: finishing file(s) (2, 0.5 KB)
+0020.579 (0) Table wp_signups: Total expected rows (via COUNT): 0
+0020.583 (0) Table wp_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1250) in 0.01 seconds
+0020.594 (0) Table wp_signups: finishing file(s) (2, 0.5 KB)
+0020.610 (0) Table wp_sitemeta: Total expected rows (via COUNT): 62
+0020.612 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.624 (0) Table wp_sitemeta: Rows added in this batch (next record: 434): 61 (uncompressed bytes in this segment=29468) in 0.02 seconds
+0020.635 (0) Table wp_sitemeta: finishing file(s) (2, 7.2 KB)
+0020.649 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0020.656 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=690) in 0.01 seconds
+0020.665 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0020.682 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 1
+0020.684 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.691 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=910) in 0.01 seconds
+0020.702 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0020.720 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0020.724 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.01 seconds
+0020.734 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0020.749 (0) Table wp_terms: Total expected rows (via COUNT): 1
+0020.751 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.758 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=728) in 0.01 seconds
+0020.767 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0020.787 (0) Table wp_2_commentmeta: Total expected rows (via COUNT): 0
+0020.793 (0) Table wp_2_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0020.803 (0) Table wp_2_commentmeta: finishing file(s) (2, 0.4 KB)
+0020.819 (0) Table wp_2_comments: Total expected rows (via COUNT): 1
+0020.821 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.827 (0) Table wp_2_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2132) in 0.01 seconds
+0020.836 (0) Table wp_2_comments: finishing file(s) (2, 0.7 KB)
+0020.854 (0) Table wp_2_links: Total expected rows (via COUNT): 0
+0020.859 (0) Table wp_2_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0020.868 (0) Table wp_2_links: finishing file(s) (2, 0.5 KB)
+0020.896 (0) Table wp_2_options: Total expected rows (approximate): 1183
+0021.054 (0) Table wp_2_options: Rows added in this batch (next record: 1985): 1183 (uncompressed bytes in this segment=1021747) in 0.18 seconds
+0021.066 (0) Table wp_2_options: finishing file(s) (2, 239 KB)
+0021.216 (0) Table wp_2_postmeta: Total expected rows (approximate): 16545
+0022.902 (0) Table wp_2_postmeta: Rows added in this batch (next record: 16650): 16545 (uncompressed bytes in this segment=1387094) in 1.83 seconds
+0022.916 (0) Table wp_2_postmeta: finishing file(s) (2, 153.4 KB)
+0022.949 (0) Table wp_2_posts: Total expected rows (via COUNT): 994
+0023.347 (0) Table wp_2_posts: Rows added in this batch (next record: 1005): 994 (uncompressed bytes in this segment=844287) in 0.42 seconds
+0023.359 (0) Table wp_2_posts: finishing file(s) (2, 51 KB)
+0023.381 (0) Table wp_2_sbi_feed_caches: Total expected rows (via COUNT): 10
+0023.383 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.392 (0) Table wp_2_sbi_feed_caches: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=31666) in 0.02 seconds
+0023.404 (0) Table wp_2_sbi_feed_caches: finishing file(s) (2, 21.9 KB)
+0023.425 (0) Table wp_2_sbi_feeds: Total expected rows (via COUNT): 1
+0023.428 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.432 (0) Table wp_2_sbi_feeds: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3023) in 0.01 seconds
+0023.444 (0) Table wp_2_sbi_feeds: finishing file(s) (2, 1.3 KB)
+0023.462 (0) Table wp_2_sbi_instagram_feed_locator: Total expected rows (via COUNT): 0
+0023.466 (0) Table wp_2_sbi_instagram_feed_locator: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.01 seconds
+0023.480 (0) Table wp_2_sbi_instagram_feed_locator: finishing file(s) (2, 0.4 KB)
+0023.495 (0) Table wp_2_sbi_instagram_feeds_posts: Total expected rows (via COUNT): 10
+0023.497 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.503 (0) Table wp_2_sbi_instagram_feeds_posts: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1333) in 0.01 seconds
+0023.513 (0) Table wp_2_sbi_instagram_feeds_posts: finishing file(s) (2, 0.6 KB)
+0023.532 (0) Table wp_2_sbi_instagram_posts: Total expected rows (via COUNT): 10
+0023.535 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.545 (0) Table wp_2_sbi_instagram_posts: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=18476) in 0.02 seconds
+0023.558 (0) Table wp_2_sbi_instagram_posts: finishing file(s) (2, 11.7 KB)
+0023.612 (0) Table wp_2_sbi_sources: Total expected rows (via COUNT): 1
+0023.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.618 (0) Table wp_2_sbi_sources: Rows added in this batch (next record: 19): 1 (uncompressed bytes in this segment=3440) in 0.01 seconds
+0023.631 (0) Table wp_2_sbi_sources: finishing file(s) (2, 2.1 KB)
+0023.646 (0) Table wp_2_term_relationships: Total expected rows (approximate): 260
+0023.659 (0) Table wp_2_term_relationships: Rows added in this batch (next record: 1000): 260 (uncompressed bytes in this segment=4544) in 0.02 seconds
+0023.670 (0) Table wp_2_term_relationships: finishing file(s) (2, 1.1 KB)
+0023.695 (0) Table wp_2_term_taxonomy: Total expected rows (via COUNT): 45
+0023.697 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.710 (0) Table wp_2_term_taxonomy: Rows added in this batch (next record: 47): 45 (uncompressed bytes in this segment=2877) in 0.03 seconds
+0023.724 (0) Table wp_2_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0023.745 (0) Table wp_2_termmeta: Total expected rows (via COUNT): 36
+0023.747 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.753 (0) Table wp_2_termmeta: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=2981) in 0.02 seconds
+0023.765 (0) Table wp_2_termmeta: finishing file(s) (2, 0.8 KB)
+0023.781 (0) Table wp_2_terms: Total expected rows (via COUNT): 45
+0023.783 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.790 (0) Table wp_2_terms: Rows added in this batch (next record: 47): 45 (uncompressed bytes in this segment=2350) in 0.01 seconds
+0023.800 (0) Table wp_2_terms: finishing file(s) (2, 0.8 KB)
+0023.825 (0) Table wp_2_yoast_indexable: Total expected rows (via COUNT): 147
+0023.828 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.922 (0) Table wp_2_yoast_indexable: Rows added in this batch (next record: 149): 147 (uncompressed bytes in this segment=111589) in 0.11 seconds
+0023.934 (0) Table wp_2_yoast_indexable: finishing file(s) (2, 10.4 KB)
+0023.951 (0) Table wp_2_yoast_indexable_hierarchy: Total expected rows (approximate): 137
+0023.961 (0) Table wp_2_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 137 (uncompressed bytes in this segment=3024) in 0.01 seconds
+0023.971 (0) Table wp_2_yoast_indexable_hierarchy: finishing file(s) (2, 0.7 KB)
+0023.984 (0) Table wp_2_yoast_migrations: Total expected rows (via COUNT): 24
+0023.987 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.996 (0) Table wp_2_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1279) in 0.01 seconds
+0024.007 (0) Table wp_2_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0024.030 (0) Table wp_2_yoast_primary_term: Total expected rows (via COUNT): 176
+0024.033 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.055 (0) Table wp_2_yoast_primary_term: Rows added in this batch (next record: 194): 176 (uncompressed bytes in this segment=15853) in 0.03 seconds
+0024.065 (0) Table wp_2_yoast_primary_term: finishing file(s) (2, 2.1 KB)
+0024.084 (0) Table wp_2_yoast_seo_links: Total expected rows (via COUNT): 61
+0024.086 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.100 (0) Table wp_2_yoast_seo_links: Rows added in this batch (next record: 61): 61 (uncompressed bytes in this segment=11523) in 0.02 seconds
+0024.110 (0) Table wp_2_yoast_seo_links: finishing file(s) (2, 1.3 KB)
+0024.131 (0) Table wp_3_commentmeta: Total expected rows (via COUNT): 0
+0024.135 (0) Table wp_3_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0024.148 (0) Table wp_3_commentmeta: finishing file(s) (2, 0.4 KB)
+0024.166 (0) Table wp_3_comments: Total expected rows (via COUNT): 1
+0024.168 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.174 (0) Table wp_3_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2132) in 0.01 seconds
+0024.183 (0) Table wp_3_comments: finishing file(s) (2, 0.7 KB)
+0024.203 (0) Table wp_3_links: Total expected rows (via COUNT): 0
+0024.208 (0) Table wp_3_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0024.218 (0) Table wp_3_links: finishing file(s) (2, 0.5 KB)
+0024.237 (0) Table wp_3_options: Total expected rows (via COUNT): 166
+0024.240 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.325 (0) Table wp_3_options: Rows added in this batch (next record: 170): 166 (uncompressed bytes in this segment=728995) in 0.10 seconds
+0024.337 (0) Table wp_3_options: finishing file(s) (2, 172.9 KB)
+0024.357 (0) Table wp_3_postmeta: Total expected rows (via COUNT): 1
+0024.359 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.364 (0) Table wp_3_postmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=755) in 0.01 seconds
+0024.376 (0) Table wp_3_postmeta: finishing file(s) (2, 0.4 KB)
+0024.401 (0) Table wp_3_posts: Total expected rows (via COUNT): 3
+0024.404 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.413 (0) Table wp_3_posts: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=4329) in 0.02 seconds
+0024.429 (0) Table wp_3_posts: finishing file(s) (2, 1.5 KB)
+0024.478 (0) Table wp_3_sbi_instagram_feeds_posts: Total expected rows (via COUNT): 0
+0024.483 (0) Table wp_3_sbi_instagram_feeds_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=860) in 0.01 seconds
+0024.493 (0) Table wp_3_sbi_instagram_feeds_posts: finishing file(s) (2, 0.4 KB)
+0024.514 (0) Table wp_3_sbi_instagram_posts: Total expected rows (via COUNT): 0
+0024.517 (0) Table wp_3_sbi_instagram_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1114) in 0.01 seconds
+0024.530 (0) Table wp_3_sbi_instagram_posts: finishing file(s) (2, 0.5 KB)
+0024.547 (0) Table wp_3_term_relationships: Total expected rows (approximate): 1
+0024.551 (0) Table wp_3_term_relationships: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=704) in 0.01 seconds
+0024.562 (0) Table wp_3_term_relationships: finishing file(s) (2, 0.4 KB)
+0024.586 (0) Table wp_3_term_taxonomy: Total expected rows (via COUNT): 1
+0024.589 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.599 (0) Table wp_3_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=924) in 0.02 seconds
+0024.613 (0) Table wp_3_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0024.633 (0) Table wp_3_termmeta: Total expected rows (via COUNT): 0
+0024.640 (0) Table wp_3_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=662) in 0.01 seconds
+0024.653 (0) Table wp_3_termmeta: finishing file(s) (2, 0.4 KB)
+0024.670 (0) Table wp_3_terms: Total expected rows (via COUNT): 1
+0024.673 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.680 (0) Table wp_3_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=742) in 0.01 seconds
+0024.692 (0) Table wp_3_terms: finishing file(s) (2, 0.4 KB)
+0024.711 (0) Table wp_sbi_feed_caches: Total expected rows (via COUNT): 5
+0024.713 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.717 (0) Table wp_sbi_feed_caches: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1207) in 0.01 seconds
+0024.730 (0) Table wp_sbi_feed_caches: finishing file(s) (2, 0.5 KB)
+0024.748 (0) Table wp_sbi_feeds: Total expected rows (via COUNT): 1
+0024.751 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.754 (0) Table wp_sbi_feeds: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3009) in 0.01 seconds
+0024.769 (0) Table wp_sbi_feeds: finishing file(s) (2, 1.3 KB)
+0024.808 (0) Table wp_sbi_instagram_feed_locator: Total expected rows (via COUNT): 0
+0024.814 (0) Table wp_sbi_instagram_feed_locator: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.01 seconds
+0024.827 (0) Table wp_sbi_instagram_feed_locator: finishing file(s) (2, 0.4 KB)
+0024.846 (0) Table wp_sbi_instagram_feeds_posts: Total expected rows (via COUNT): 10
+0024.848 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.856 (0) Table wp_sbi_instagram_feeds_posts: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1319) in 0.02 seconds
+0024.866 (0) Table wp_sbi_instagram_feeds_posts: finishing file(s) (2, 0.6 KB)
+0024.889 (0) Table wp_sbi_instagram_posts: Total expected rows (via COUNT): 10
+0024.891 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.898 (0) Table wp_sbi_instagram_posts: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=18462) in 0.02 seconds
+0024.911 (0) Table wp_sbi_instagram_posts: finishing file(s) (2, 11.7 KB)
+0024.927 (0) Table wp_sbi_sources: Total expected rows (via COUNT): 1
+0024.930 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.933 (0) Table wp_sbi_sources: Rows added in this batch (next record: 6): 1 (uncompressed bytes in this segment=3360) in 0.01 seconds
+0024.945 (0) Table wp_sbi_sources: finishing file(s) (2, 2 KB)
+0024.972 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 11
+0024.975 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.986 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=8771) in 0.02 seconds
+0024.999 (0) Table wp_yoast_indexable: finishing file(s) (2, 1.9 KB)
+0025.015 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 5
+0025.021 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=860) in 0.01 seconds
+0025.031 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0025.047 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0025.049 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.057 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1261) in 0.01 seconds
+0025.068 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0025.090 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0025.096 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=842) in 0.01 seconds
+0025.111 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0025.144 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 1
+0025.146 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.153 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1122) in 0.01 seconds
+0025.164 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0025.167 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\WAMP64\www\birkdale-magento/wp-content/updraft/backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db.gz (line 1923, D:\WAMP64\www\birkdale-magento\wp-content\plugins\updraftplus\backup.php)
+0025.192 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_options.table.tmpr464.gz (1/62/fopen): adding to final database dump
+0025.213 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_options.table.gz (2/62/fopen): adding to final database dump
+0025.215 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_site.table.tmpr2.gz (3/62/fopen): adding to final database dump
+0025.218 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_site.table.gz (4/62/fopen): adding to final database dump
+0025.220 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_blogs.table.tmpr4.gz (5/62/fopen): adding to final database dump
+0025.224 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_blogs.table.gz (6/62/fopen): adding to final database dump
+0025.227 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_users.table.tmpr3.gz (7/62/fopen): adding to final database dump
+0025.229 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_users.table.gz (8/62/fopen): adding to final database dump
+0025.231 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_usermeta.table.tmpr94.gz (9/62/fopen): adding to final database dump
+0025.235 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_usermeta.table.gz (10/62/fopen): adding to final database dump
+0025.238 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_blogmeta.table.tmpr0.gz (11/62/fopen): adding to final database dump
+0025.242 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_blogmeta.table.gz (12/62/fopen): adding to final database dump
+0025.245 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_commentmeta.table.tmpr0.gz (13/62/fopen): adding to final database dump
+0025.248 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_commentmeta.table.gz (14/62/fopen): adding to final database dump
+0025.251 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_comments.table.tmpr2.gz (15/62/fopen): adding to final database dump
+0025.254 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_comments.table.gz (16/62/fopen): adding to final database dump
+0025.258 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_links.table.tmpr0.gz (17/62/fopen): adding to final database dump
+0025.261 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_links.table.gz (18/62/fopen): adding to final database dump
+0025.263 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_postmeta.table.tmpr11.gz (19/62/fopen): adding to final database dump
+0025.266 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_postmeta.table.gz (20/62/fopen): adding to final database dump
+0025.268 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_posts.table.tmpr11.gz (21/62/fopen): adding to final database dump
+0025.271 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_posts.table.gz (22/62/fopen): adding to final database dump
+0025.274 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_registration_log.table.tmpr3.gz (23/62/fopen): adding to final database dump
+0025.277 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_registration_log.table.gz (24/62/fopen): adding to final database dump
+0025.279 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_signups.table.tmpr0.gz (25/62/fopen): adding to final database dump
+0025.282 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_signups.table.gz (26/62/fopen): adding to final database dump
+0025.284 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sitemeta.table.tmpr435.gz (27/62/fopen): adding to final database dump
+0025.289 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sitemeta.table.gz (28/62/fopen): adding to final database dump
+0025.292 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_term_relationships.table.tmpr100001.gz (29/62/fopen): adding to final database dump
+0025.294 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_term_relationships.table.gz (30/62/fopen): adding to final database dump
+0025.297 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_term_taxonomy.table.tmpr2.gz (31/62/fopen): adding to final database dump
+0025.300 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_term_taxonomy.table.gz (32/62/fopen): adding to final database dump
+0025.303 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_termmeta.table.tmpr0.gz (33/62/fopen): adding to final database dump
+0025.306 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_termmeta.table.gz (34/62/fopen): adding to final database dump
+0025.309 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_terms.table.tmpr2.gz (35/62/fopen): adding to final database dump
+0025.312 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_terms.table.gz (36/62/fopen): adding to final database dump
+0025.315 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_commentmeta.table.tmpr0.gz (37/62/fopen): adding to final database dump
+0025.318 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_commentmeta.table.gz (38/62/fopen): adding to final database dump
+0025.321 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_comments.table.tmpr2.gz (39/62/fopen): adding to final database dump
+0025.324 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_comments.table.gz (40/62/fopen): adding to final database dump
+0025.326 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_links.table.tmpr0.gz (41/62/fopen): adding to final database dump
+0025.328 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_links.table.gz (42/62/fopen): adding to final database dump
+0025.330 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_options.table.tmpr1986.gz (43/62/fopen): adding to final database dump
+0025.352 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_options.table.gz (44/62/fopen): adding to final database dump
+0025.355 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_postmeta.table.tmpr16651.gz (45/62/fopen): adding to final database dump
+0025.369 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_postmeta.table.gz (46/62/fopen): adding to final database dump
+0025.371 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_posts.table.tmpr1006.gz (47/62/fopen): adding to final database dump
+0025.377 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_posts.table.gz (48/62/fopen): adding to final database dump
+0025.380 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_feed_caches.table.tmpr11.gz (49/62/fopen): adding to final database dump
+0025.384 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_feed_caches.table.gz (50/62/fopen): adding to final database dump
+0025.387 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_feeds.table.tmpr2.gz (51/62/fopen): adding to final database dump
+0025.390 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_feeds.table.gz (52/62/fopen): adding to final database dump
+0025.393 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_instagram_feed_locator.table.tmpr0.gz (53/62/fopen): adding to final database dump
+0025.395 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_instagram_feed_locator.table.gz (54/62/fopen): adding to final database dump
+0025.398 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_instagram_feeds_posts.table.tmpr11.gz (55/62/fopen): adding to final database dump
+0025.401 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_instagram_feeds_posts.table.gz (56/62/fopen): adding to final database dump
+0025.403 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_instagram_posts.table.tmpr11.gz (57/62/fopen): adding to final database dump
+0025.409 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_instagram_posts.table.gz (58/62/fopen): adding to final database dump
+0025.412 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_sources.table.tmpr20.gz (59/62/fopen): adding to final database dump
+0025.415 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_sbi_sources.table.gz (60/62/fopen): adding to final database dump
+0025.418 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_term_relationships.table.tmpr1001.gz (61/62/fopen): adding to final database dump
+0025.421 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_term_relationships.table.gz (62/62/fopen): adding to final database dump
+0025.426 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_term_taxonomy.table.tmpr48.gz (63/62/fopen): adding to final database dump
+0025.429 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_term_taxonomy.table.gz (64/62/fopen): adding to final database dump
+0025.431 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_termmeta.table.tmpr37.gz (65/62/fopen): adding to final database dump
+0025.434 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_termmeta.table.gz (66/62/fopen): adding to final database dump
+0025.436 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_terms.table.tmpr48.gz (67/62/fopen): adding to final database dump
+0025.440 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_terms.table.gz (68/62/fopen): adding to final database dump
+0025.442 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_indexable.table.tmpr150.gz (69/62/fopen): adding to final database dump
+0025.446 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_indexable.table.gz (70/62/fopen): adding to final database dump
+0025.448 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_indexable_hierarchy.table.tmpr1001.gz (71/62/fopen): adding to final database dump
+0025.451 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_indexable_hierarchy.table.gz (72/62/fopen): adding to final database dump
+0025.453 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_migrations.table.tmpr25.gz (73/62/fopen): adding to final database dump
+0025.456 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_migrations.table.gz (74/62/fopen): adding to final database dump
+0025.459 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_primary_term.table.tmpr195.gz (75/62/fopen): adding to final database dump
+0025.462 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_primary_term.table.gz (76/62/fopen): adding to final database dump
+0025.464 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_seo_links.table.tmpr62.gz (77/62/fopen): adding to final database dump
+0025.467 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_2_yoast_seo_links.table.gz (78/62/fopen): adding to final database dump
+0025.470 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_commentmeta.table.tmpr0.gz (79/62/fopen): adding to final database dump
+0025.473 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_commentmeta.table.gz (80/62/fopen): adding to final database dump
+0025.476 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_comments.table.tmpr2.gz (81/62/fopen): adding to final database dump
+0025.479 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_comments.table.gz (82/62/fopen): adding to final database dump
+0025.481 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_links.table.tmpr0.gz (83/62/fopen): adding to final database dump
+0025.484 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_links.table.gz (84/62/fopen): adding to final database dump
+0025.487 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_options.table.tmpr171.gz (85/62/fopen): adding to final database dump
+0025.506 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_options.table.gz (86/62/fopen): adding to final database dump
+0025.509 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_postmeta.table.tmpr2.gz (87/62/fopen): adding to final database dump
+0025.511 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_postmeta.table.gz (88/62/fopen): adding to final database dump
+0025.514 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_posts.table.tmpr4.gz (89/62/fopen): adding to final database dump
+0025.517 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_posts.table.gz (90/62/fopen): adding to final database dump
+0025.520 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_sbi_instagram_feeds_posts.table.tmpr0.gz (91/62/fopen): adding to final database dump
+0025.523 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_sbi_instagram_feeds_posts.table.gz (92/62/fopen): adding to final database dump
+0025.526 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_sbi_instagram_posts.table.tmpr0.gz (93/62/fopen): adding to final database dump
+0025.528 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_sbi_instagram_posts.table.gz (94/62/fopen): adding to final database dump
+0025.531 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_term_relationships.table.tmpr1001.gz (95/62/fopen): adding to final database dump
+0025.534 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_term_relationships.table.gz (96/62/fopen): adding to final database dump
+0025.536 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_term_taxonomy.table.tmpr2.gz (97/62/fopen): adding to final database dump
+0025.541 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_term_taxonomy.table.gz (98/62/fopen): adding to final database dump
+0025.543 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_termmeta.table.tmpr0.gz (99/62/fopen): adding to final database dump
+0025.548 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_termmeta.table.gz (100/62/fopen): adding to final database dump
+0025.551 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_terms.table.tmpr2.gz (101/62/fopen): adding to final database dump
+0025.553 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_3_terms.table.gz (102/62/fopen): adding to final database dump
+0025.559 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_feed_caches.table.tmpr6.gz (103/62/fopen): adding to final database dump
+0025.562 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_feed_caches.table.gz (104/62/fopen): adding to final database dump
+0025.564 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_feeds.table.tmpr2.gz (105/62/fopen): adding to final database dump
+0025.567 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_feeds.table.gz (106/62/fopen): adding to final database dump
+0025.569 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_instagram_feed_locator.table.tmpr0.gz (107/62/fopen): adding to final database dump
+0025.573 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_instagram_feed_locator.table.gz (108/62/fopen): adding to final database dump
+0025.576 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_instagram_feeds_posts.table.tmpr11.gz (109/62/fopen): adding to final database dump
+0025.578 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_instagram_feeds_posts.table.gz (110/62/fopen): adding to final database dump
+0025.580 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_instagram_posts.table.tmpr11.gz (111/62/fopen): adding to final database dump
+0025.584 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_instagram_posts.table.gz (112/62/fopen): adding to final database dump
+0025.587 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_sources.table.tmpr7.gz (113/62/fopen): adding to final database dump
+0025.590 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_sbi_sources.table.gz (114/62/fopen): adding to final database dump
+0025.593 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_indexable.table.tmpr12.gz (115/62/fopen): adding to final database dump
+0025.596 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_indexable.table.gz (116/62/fopen): adding to final database dump
+0025.598 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (117/62/fopen): adding to final database dump
+0025.601 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_indexable_hierarchy.table.gz (118/62/fopen): adding to final database dump
+0025.615 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_migrations.table.tmpr25.gz (119/62/fopen): adding to final database dump
+0025.617 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_migrations.table.gz (120/62/fopen): adding to final database dump
+0025.620 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_primary_term.table.tmpr0.gz (121/62/fopen): adding to final database dump
+0025.624 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_primary_term.table.gz (122/62/fopen): adding to final database dump
+0025.627 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_seo_links.table.tmpr2.gz (123/62/fopen): adding to final database dump
+0025.629 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db-table-wp_yoast_seo_links.table.gz (124/62/fopen): adding to final database dump
+0025.660 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db.gz: finished writing out complete database file (951.8 KB)
+0025.724 (0) Total database tables backed up: 62 (backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db.gz, size: 974795, sha1: c86c6ce5bedefcbcf7d79ab3048ee222be974a96, sha256: 9e648a839f67c15a59dbbd49a65090915597dcaaff793f388fe79c246ec3987f)
+0025.741 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-plugins.zip: plugins: This file has already been successfully processed
+0025.747 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-themes.zip: themes: This file has already been successfully processed
+0025.750 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-uploads.zip: uploads: This file has already been successfully processed
+0025.752 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-others.zip: others: This file has already been successfully processed
+0025.754 (0) backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db.gz: db: This file has not yet been successfully uploaded: will queue
+0025.757 (0) Saving backup history. Total backup size: 52.6 MB
+0025.765 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0025.771 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0025.774 (0) No remote despatch: user chose no remote backup service
+0025.775 (0) Recording as successfully uploaded: backup_2025-01-22-0448_birkdalemagento_7c0f16848663-db.gz
+0025.781 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0025.785 (0) Number of backup sets in history: 1; groups (db): 1
+0025.788 (0) Examining (for databases) backup set with group_id=0, nonce=7c0f16848663, datestamp=1737521324 (Jan 22 2025 04:48:44)
+0025.792 (0) This backup set is the backup set just made, so will not be deleted.
+0025.792 (0) Number of backup sets in history: 1; groups (files): 1
+0025.794 (0) Examining (for files) backup set with nonce=7c0f16848663, datestamp=1737521324 (Jan 22 2025 04:48:44)
+0025.794 (0) This backup set is the backup set just made, so will not be deleted.
+0025.796 (0) This backup set is the backup set just made, so will not be deleted.
+0025.797 (0) This backup set is the backup set just made, so will not be deleted.
+0025.797 (0) This backup set is the backup set just made, so will not be deleted.
+0025.798 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0025.802 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0025.809 (0) Resume backup (7c0f16848663, 0): finish run
+0025.815 (0) Decremented the semaphore (fd) by 1
+0025.818 (0) Semaphore (fd) unlocked
+0025.822 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0025.832 (0) No email will/can be sent - the user has not configured an email address.
+0025.834 (0) The backup succeeded and is now complete
