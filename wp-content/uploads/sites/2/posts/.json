@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "date": "2025-01-08T09:58:32",
+        "date_gmt": "2025-01-08T09:58:32",
+        "guid": {
+            "rendered": "http:\/\/durapost.localhost\/birkdale-magento\/?p=1"
+        },
+        "modified": "2025-01-08T09:58:32",
+        "modified_gmt": "2025-01-08T09:58:32",
+        "slug": "hello-world",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/",
+        "title": {
+            "rendered": "Hello world!"
+        },
+        "content": {
+            "rendered": "<p>Welcome to <a href=\"http:\/\/localhost\/birkdale-magento\/\">birkdale magento Sites<\/a>. This is your first post. Edit or delete it, then start writing!<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Welcome to birkdale magento Sites. This is your first post. Edit or delete it, then start writing!<\/p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "_acf_changed": false,
+            "footnotes": ""
+        },
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "class_list": [
+            "post-1",
+            "post",
+            "type-post",
+            "status-publish",
+            "format-standard",
+            "hentry",
+            "category-uncategorized"
+        ],
+        "acf": [],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v24.2 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\r\n<title>Hello world! - DuraPost<\/title>\r\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\r\n<link rel=\"canonical\" href=\"http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/\" \/>\r\n<meta property=\"og:locale\" content=\"en_US\" \/>\r\n<meta property=\"og:type\" content=\"article\" \/>\r\n<meta property=\"og:title\" content=\"Hello world! - DuraPost\" \/>\r\n<meta property=\"og:description\" content=\"Welcome to birkdale magento Sites. This is your first post. Edit or delete it, then start writing!\" \/>\r\n<meta property=\"og:url\" content=\"http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/\" \/>\r\n<meta property=\"og:site_name\" content=\"DuraPost\" \/>\r\n<meta property=\"article:published_time\" content=\"2025-01-08T09:58:32+00:00\" \/>\r\n<meta name=\"author\" content=\"admin_birkdale\" \/>\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\r\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"admin_birkdale\" \/>\r\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/\",\"url\":\"http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/\",\"name\":\"Hello world! - DuraPost\",\"isPartOf\":{\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/#website\"},\"datePublished\":\"2025-01-08T09:58:32+00:00\",\"dateModified\":\"2025-01-08T09:58:32+00:00\",\"author\":{\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/#\/schema\/person\/0f7a93f58159e4865f4cb2b139e99baa\"},\"breadcrumb\":{\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"http:\/\/durapost.localhost\/birkdale-magento\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Hello world!\"}]},{\"@type\":\"WebSite\",\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/#website\",\"url\":\"http:\/\/durapost.localhost\/birkdale-magento\/\",\"name\":\"DuraPost\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\/\/durapost.localhost\/birkdale-magento\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/#\/schema\/person\/0f7a93f58159e4865f4cb2b139e99baa\",\"name\":\"admin_birkdale\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"http:\/\/durapost.localhost\/birkdale-magento\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/4bbf9628ab3419e86a80ffd54f772b21?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/4bbf9628ab3419e86a80ffd54f772b21?s=96&d=mm&r=g\",\"caption\":\"admin_birkdale\"},\"sameAs\":[\"http:\/\/localhost\/birkdale-magento\"],\"url\":\"http:\/\/durapost.localhost\/birkdale-magento\/author\/admin_birkdale\/\"}]}<\/script>\r\n<!-- \/ Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Hello world! - DuraPost",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Hello world! - DuraPost",
+            "og_description": "Welcome to birkdale magento Sites. This is your first post. Edit or delete it, then start writing!",
+            "og_url": "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/",
+            "og_site_name": "DuraPost",
+            "article_published_time": "2025-01-08T09:58:32+00:00",
+            "author": "admin_birkdale",
+            "twitter_card": "summary_large_image",
+            "twitter_misc": {
+                "Written by": "admin_birkdale"
+            },
+            "schema": {
+                "@context": "https:\/\/schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "@id": "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/",
+                        "url": "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/",
+                        "name": "Hello world! - DuraPost",
+                        "isPartOf": {
+                            "@id": "http:\/\/durapost.localhost\/birkdale-magento\/#website"
+                        },
+                        "datePublished": "2025-01-08T09:58:32+00:00",
+                        "dateModified": "2025-01-08T09:58:32+00:00",
+                        "author": {
+                            "@id": "http:\/\/durapost.localhost\/birkdale-magento\/#\/schema\/person\/0f7a93f58159e4865f4cb2b139e99baa"
+                        },
+                        "breadcrumb": {
+                            "@id": "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "http:\/\/durapost.localhost\/birkdale-magento\/2025\/01\/08\/hello-world\/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "http:\/\/durapost.localhost\/birkdale-magento\/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Hello world!"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "http:\/\/durapost.localhost\/birkdale-magento\/#website",
+                        "url": "http:\/\/durapost.localhost\/birkdale-magento\/",
+                        "name": "DuraPost",
+                        "description": "",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "http:\/\/durapost.localhost\/birkdale-magento\/?s={search_term_string}"
+                                },
+                                "query-input": {
+                                    "@type": "PropertyValueSpecification",
+                                    "valueRequired": true,
+                                    "valueName": "search_term_string"
+                                }
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "Person",
+                        "@id": "http:\/\/durapost.localhost\/birkdale-magento\/#\/schema\/person\/0f7a93f58159e4865f4cb2b139e99baa",
+                        "name": "admin_birkdale",
+                        "image": {
+                            "@type": "ImageObject",
+                            "inLanguage": "en-US",
+                            "@id": "http:\/\/durapost.localhost\/birkdale-magento\/#\/schema\/person\/image\/",
+                            "url": "https:\/\/secure.gravatar.com\/avatar\/4bbf9628ab3419e86a80ffd54f772b21?s=96&d=mm&r=g",
+                            "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/4bbf9628ab3419e86a80ffd54f772b21?s=96&d=mm&r=g",
+                            "caption": "admin_birkdale"
+                        },
+                        "sameAs": [
+                            "http:\/\/localhost\/birkdale-magento"
+                        ],
+                        "url": "http:\/\/durapost.localhost\/birkdale-magento\/author\/admin_birkdale\/"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/posts\/1",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/users\/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/comments?post=1"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/posts\/1\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/media?parent=1"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/categories?post=1"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/durapost.localhost\/birkdale-magento\/wp-json\/wp\/v2\/tags?post=1"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

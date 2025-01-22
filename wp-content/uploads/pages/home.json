@@ -1,0 +1,98 @@
+[
+    {
+        "id": 9,
+        "date": "2025-01-08T12:05:40",
+        "date_gmt": "2025-01-08T12:05:40",
+        "guid": {
+            "rendered": "http:\/\/localhost\/birkdale-magento\/?page_id=9"
+        },
+        "modified": "2025-01-08T12:05:40",
+        "modified_gmt": "2025-01-08T12:05:40",
+        "slug": "home",
+        "status": "publish",
+        "type": "page",
+        "link": "http:\/\/localhost\/birkdale-magento\/home\/",
+        "title": {
+            "rendered": "Home"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": {
+            "_acf_changed": false,
+            "footnotes": ""
+        },
+        "class_list": [
+            "post-9",
+            "page",
+            "type-page",
+            "status-publish",
+            "hentry"
+        ],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/localhost\/birkdale-magento\/wp-json\/wp\/v2\/pages\/9",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/localhost\/birkdale-magento\/wp-json\/wp\/v2\/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/localhost\/birkdale-magento\/wp-json\/wp\/v2\/types\/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/localhost\/birkdale-magento\/wp-json\/wp\/v2\/users\/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/localhost\/birkdale-magento\/wp-json\/wp\/v2\/comments?post=9"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "http:\/\/localhost\/birkdale-magento\/wp-json\/wp\/v2\/pages\/9\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/localhost\/birkdale-magento\/wp-json\/wp\/v2\/media?parent=9"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
