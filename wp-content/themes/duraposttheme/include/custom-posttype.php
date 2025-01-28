@@ -259,6 +259,40 @@ function create_post_type() {
 
     register_post_type ( 'resource', $resource_args );
 
+    // Installer
+    $installer_args = array(
+        'labels' => array(
+            'name'                  => 'Installers',
+            'singular_name'         => 'Installer',
+            'menu_name'             => 'Installers',
+            'name_admin_bar'        => 'Installer',
+            'add_new'               => 'Add New',
+            'add_new_item'          => 'Add New Installer',
+            'new_item'              => 'New Installer',
+            'edit_item'             => 'Edit Installer',
+            'view_item'             => 'View Installer',
+            'all_items'             => 'All Installers',
+            'search_items'          => 'Search Installers',
+            'not_found'             => 'No installers found.',
+            'not_found_in_trash'    => 'No installers found in Trash.',
+            'parent_item_colon'     => '',
+        ),
+        'public'                => true,
+        'has_archive'           => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'menu_position'         => 20, // Adjust position if needed
+        'show_in_rest'          => true,
+        'menu_icon'             => 'dashicons-admin-users', // You can change this if needed
+        'supports'              => array( 'title', 'editor', 'thumbnail' ),
+        'taxonomies'            => array(),
+        'hierarchical'          => false,
+        'rewrite'               => array( 'slug' => 'installers' ),
+    );
+
+    register_post_type( 'installer', $installer_args );
+
+
     // Register Taxonomies for each Post Type
     // Case Studies Taxonomies
     register_taxonomy ( 'case_study_collections', 'case_study', array (
